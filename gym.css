@@ -1,0 +1,202 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.logo h1 {
+    padding-left: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+/* Banner Section */
+.banner {
+    height: 89vh; 
+    background: url('pexels-anush-1229356.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.cta-btn {
+    background-color: #FF5733;
+    padding: 15px 30px;
+    margin-top: 50px; /* Increase margin to move it further down */
+    border-radius: 5px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px; /* Add padding to move everything down */
+}
+.cta-btn:hover {
+    background-color: #C70039;
+}
+
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover img {
+    transform: scale(0.95);
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+/* Trainers Section */
+.trainers {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.trainer-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.trainer-item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.trainer-item:hover {
+    transform: translateY(-10px);
+}
+
+.trainer-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.trainer-item:hover img {
+    transform: scale(0.95);
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.contact p {
+    margin: 20px 0;
+}
+
+.contact a {
+    background-color: #FF5733;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    background-color: #C70039;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
