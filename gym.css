@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +53,7 @@ a {
 .banner {
     height: 89vh; 
     background: url('pexels-anush-1229356.jpg') no-repeat center center;
-    background-size: cover; /* Ensures the image covers the full screen */
+    background-size: cover; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +74,7 @@ a {
 .cta-btn {
     background-color: #FF5733;
     padding: 15px 30px;
-    margin-top: 50px; /* Increase margin to move it further down */
+    margin-top: 50px; 
     border-radius: 5px;
 }
 
@@ -84,7 +83,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 50px; /* Add padding to move everything down */
+    padding-top: 50px; 
 }
 .cta-btn:hover {
     background-color: #C70039;
